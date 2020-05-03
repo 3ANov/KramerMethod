@@ -40,9 +40,10 @@ int main()
 
 
 
-    det_1(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]);
-    det_2(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]);
-    det_4(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]);
+    cout << det_1(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]) << '\n';
+    cout << det_2(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]) << '\n';
+    cout << det_2(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]) << '\n';
+    cout << det_4(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]) << '\n';
 
     return 0;
 }
