@@ -5,3 +5,4 @@ void det_1(float a, float b, float c, float d){
     //тернарный оператор
     result == 0 ? cout << "Бесконечно решений": cout << "Определитель равен " << result << '\n';
 }
+

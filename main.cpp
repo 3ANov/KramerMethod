@@ -1,5 +1,7 @@
 #include "header.h"
 
+
+
 int main()
 {
     //размер матрицы
@@ -39,6 +41,8 @@ int main()
 
 
     det_1(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]);
+    det_2(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]);
+    det_4(matrix[0][0], matrix[0][1], matrix[1][0], matrix[1][1]);
 
     return 0;
 }

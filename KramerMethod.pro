@@ -4,8 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        determinants_funct.cpp \
-        main.cpp
+        main.cpp \
+        method_functions.cpp
 
 HEADERS += \
     header.h
